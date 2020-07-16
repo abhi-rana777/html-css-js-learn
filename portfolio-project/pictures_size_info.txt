@@ -1,0 +1,5 @@
+project thumbnails
+600px width
+
+background images
+1400px to 2000px width
