@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learning forms in html</title>
+</head>
+<body>
+  <h1>Login Page</h1>
+  <form>
+    <label for="first_name">
+      First Name:
+      <input type="text" id="first_name" name="first_name">
+    </label><br><br>
+    <label for="last_name">
+      Last Name:
+      <input type="text" id="last_name" name="last_name">
+    </label><br><br>
+    <label for="username">
+      Username:
+      <input type="text" id="username" name="username">
+    </label><br><br>
+    <label for="password">
+      Password:
+      <input type="password" id="password" name="password">
+    </label><br><br>
+    <label for="phone">
+      Mobile number:
+      <input type="tel" id="phone" name="phone">
+    </label><br><br>
+    <label for="email">
+      Email id:
+      <input type="email" id="email" name="email">
+    </label><br><br>
+    <label for="website">
+      Website:
+      <input type="url" id="website" name="website">
+    </label><br><br>
+    <label for="search">
+      Search Tab:
+      <input type="search" id="search" name="search">
+    </label><br><br>
+    <label for="comments">
+      Comments:
+      <textarea id="comments" rows="3" cols="20"></textarea>
+    </label><br><br>
+    <label for="food_selector">
+      Choose your fav food:
+      <select id="food_selector">
+        <optgroup label="Veg">
+          <option>Cheese sandwich</option>
+          <option>Mayo sandwich</option>
+        </optgroup>
+        <optgroup label="non-veg">
+          <option>Bacon sandwich</option>
+          <option>Hamburger</option>
+        </optgroup>
+      </select>
+    </label> <br><br>
+    <p>What type of sleep person are you?</p>
+    <label for="morning_person">
+      Earlie birdie:
+      <input type="checkbox" id="morning_person" name="sleep_person" checked>
+    </label>
+    <label for="night_person">
+      Night owl:
+      <input type="checkbox" id="night_person" name="sleep_person">
+    </label> <br><br>
+    <p>Gender:</p>
+    <label for="male">
+      Male:
+      <input type="radio" id="male" name="gender">
+    </label><br>
+    <label for="female">
+      Female:
+      <input type="radio" id="female" name="gender">
+    </label><br>
+    <label for="others">
+      Others:
+      <input type="radio" id="others" name="gender">
+    </label><br><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset Form</button>
+  </form>
+</body>
+</html>
