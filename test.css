@@ -1,0 +1,12 @@
+h1 {
+  border: 15px solid grey;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.button {
+  
+  background: teal;
+  padding: 40px 100px;
+  text-align: center;
+  font-size: 50px;
+}
