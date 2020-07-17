@@ -3,10 +3,28 @@ h1 {
   padding: 10px 20px;
   border-radius: 10px;
 }
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
 .button {
-  
-  background: teal;
+  background-color: #ff7272;
+  border: 2px solid #ff7272;
+  border-radius: 10px;
   padding: 40px 100px;
+  color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: #ff7272;
+  border: 2px solid #ff7272;
+}
+
+.button:onclick {
+  border: 2px solid #ff7272;
 }
